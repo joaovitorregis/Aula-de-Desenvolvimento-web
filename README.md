@@ -26,9 +26,29 @@ Os materiais estão organizados por tema. A numeração da capa do PDF de CSS di
 
 ## Site de demonstração
 
-Abra `index.html` no navegador. O exemplo usa HTML, CSS e JavaScript puro e não precisa de instalação. Experimente o contador, a troca de tema e o formulário.
+[Abrir a demonstração publicada](https://joaovitorregis.github.io/Aula-de-Desenvolvimento-web/).
+
+Para estudar no computador:
+
+1. Baixe o repositório em **Code → Download ZIP** e extraia os arquivos, ou clone com `git clone https://github.com/joaovitorregis/Aula-de-Desenvolvimento-web.git`.
+2. Abra `index.html` no navegador, mantendo `styles.css` e `script.js` na mesma pasta.
+3. Use **Adicionar clique** e **Reiniciar**, alterne o tema no cabeçalho e preencha o formulário com dados fictícios para observar o `alert`.
+
+O exemplo usa HTML, CSS e JavaScript puro. Não precisa instalar dependências, executar um build ou configurar servidor.
 
 O formulário demonstra comportamento de interface com `alert`; ele não envia nem armazena inscrições. Os exemplos são materiais introdutórios e não representam uma aplicação com backend.
+
+## Publicação no GitHub Pages
+
+A configuração consultada em 22/10/2026 publica a raiz (`/`) da branch `main` em GitHub Pages, sem domínio próprio.
+
+Para publicar sua própria cópia:
+
+1. Crie um fork ou envie os arquivos para um repositório seu, com `index.html`, `styles.css` e `script.js` na raiz.
+2. Em **Settings → Pages**, selecione **Deploy from a branch**, a branch que contém os arquivos e a pasta **/(root)**; salve.
+3. Aguarde a publicação e abra a URL indicada pelo GitHub. Confira o contador, o tema e o formulário na página publicada.
+
+Alterações neste repositório só aparecem no site após chegarem à `main` e a publicação concluir. O endereço de uma página de código no GitHub (`/blob/.../index.html`) mostra o arquivo; use a URL do Pages para acessar o site.
 
 ## Organização
 
